@@ -1,7 +1,7 @@
 import { Account, Appwrite, Storage } from "@refinedev/appwrite";
 
-const APPWRITE_URL = "https://refine.appwrite.org/v1";
-const APPWRITE_PROJECT = "61c4368b4e349";
+const APPWRITE_URL = process.env.APPWRITE_URL ;
+const APPWRITE_PROJECT = process.env.APPWRITE_PROJECT ;
 
 const appwriteClient = new Appwrite();
 
